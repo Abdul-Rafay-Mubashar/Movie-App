@@ -1,0 +1,284 @@
+.NavBar_OutLine{
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.NavBar_Part1{
+  height: 40%;
+  width: 40%;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.NavBar_Part2{
+  height: 40%;
+  width: 40%;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.Option1{
+  height: 100%;
+  width: 20%;
+  font-size: 18px;
+  color: silver;
+  font-weight: 500;
+  min-width: 75px;
+  cursor: pointer;
+}
+.Option2{
+  height: 100%;
+  width: 20%;
+  font-size: 18px;
+  color: silver;
+  font-weight: 500;
+  min-width: 109px;
+  cursor: pointer;
+}
+.Search{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.Option1_Part2{
+  height: 100%;
+  width: 40%;
+  font-size: 18px;
+  color: silver;
+  font-weight: 500;
+  margin-left: 40%;
+  text-align: end;
+  min-width: 60px;
+  cursor: pointer;
+}
+.Part1_Part2{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  min-width: 146.5px;
+}
+.Part2_Part2{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.Search_Input{
+  width: 80%;
+  height: 85%;
+  background-color: #353434;
+  color: white;
+}
+.Search_Button{
+  width: 20%;
+  height: 112%;
+  background-color: orange;
+}
+.Search_Pic{
+  width: 70%;
+  height: 80%;
+  cursor: pointer;
+}
+.For_Pic_Frame{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Pic_Frame{
+  width: 500px;
+  height: 500px;
+  border: solid black 10px;
+  border-radius: 110px;
+}
+.Table_Component{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.info_table{
+  width: 100%;
+  height: 70%;
+  background-color: orange;
+}
+.info_com{
+  width: 100%;
+  height: 50px;
+  background-color: #353434;
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  color: silver;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.info_heading{
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  color: silver;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: silver;
+  font-size: 28px;
+  font-weight: 500;
+}
+.a{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.Table_Chart{
+  width: 62%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+:hover.Option1{
+  color: white;
+}
+:hover.Option2{
+  color: white;
+}
+:hover.Option1_Part2{
+  color: white;
+}
+@media screen and (max-width:700px) {
+  .NavBar_Part1{
+    display: none;
+  }
+  .NavBar_Part2{
+    width: 80%;
+    justify-content: center;
+    align-content: center;
+  }
+  .Part1_Part2{
+    width: 80%;
+  }
+  .Part2_Part2{
+    width: 20%;
+  }
+  .Search_Input{
+    min-width: 145px;
+  }
+  .Search_Button{
+    min-width: 27px;
+  }
+  .Option1_Part2{
+    margin-left: 0px;
+    font-size: 14px;
+  }
+}
+.totel{
+  display: none;
+}
+.Show_MenuBar{
+  width: 35px;
+  height: 40px;
+  background-color: black;
+  margin-left: 40px;
+  min-width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Hided_MenuBar{
+  position: absolute;
+  top: 60px;
+  width: 70%;
+  height: 100%;
+  background-color: #353434;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  width: 90%;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+}
+.Menu_Pic{
+  width: 100%;
+  height: 100%;
+}
+.poster{
+  width: 100%;
+  height: 100%;
+  border-radius: 95px;
+}
+@media screen and (max-width:800px) {
+  .Table_Chart{
+    width: 100%;
+  }
+}
+@media screen and (max-width:650px) {
+  .totel{
+    display: flex;
+  }
+  .Hided_MenuBar{
+    width: 70%;
+    height: 100rem;
+    background-color: #353434;
+  }
+  .NavBar_OutLine{
+    position: fixed;
+  }
+  .info_table{
+    justify-content: flex-start;
+  }
+  .a{
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .Pic_Frame{
+    width: 70%;
+    height: 50%;
+  }
+  .For_Pic_Frame{
+    width: 80%;
+  }
+  .Table_Component{
+    width: 80%;
+  }
+  .info_com{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width:400px) {
+  .NavBar_Part2{
+    margin-left: 20px;
+  }
+  .Show_MenuBar{
+    width: 25px;
+  }
+  .Hided_MenuBar{
+    width: 80%;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .main{
+    align-items: flex-end;
+
+  }
+}
+@media screen and (max-width:360px) {
+  .Hided_MenuBar{
+    margin-left: 15px;
+  }
+}
